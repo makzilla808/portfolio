@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Makamae's Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/3c381d8d2c.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <header>
@@ -28,13 +30,16 @@
 
     <!--Introduction-->
     <section class="intro" id="welcome-section">
-        <h1 class="section__title section__title--intro">Hi, I am <strong>Makamae Torres</strong></h1>
-        <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Makamae Torres</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">front-end developer</p>
+        <img src="makzimg.JPG" alt="Picture of Makamae" class="intro__img">
     </section>
 
     <!--My Services-->
     <section class="my-services" id="services">
-        <h2 class="section__title section __title--services">What I do</h2>
+        <h2 class="section__title section__title--services">What I do</h2>
         <div class="services">
             <div class="service">
                 <h3>Front-end Development</h3>
@@ -52,13 +57,13 @@
             </div>-->  
         </div>
 
-        <a href="#" class="btn">My Work</a>
+        <a href="#projects" class="btn">My Work</a>
     </section>
 
     <!--About Me-->
     <section class="about-me" id="about">
         <h2 class="section__title section__title--about">Who I am</h2>
-        <p class="section__subtitle section__subtitle--about"></p>
+        <p class="section__subtitle section__subtitle--about">Developer Based out of Hawaii</p>
 
         <div class="about-me__body">
             <p>I am an aspiring web developer from Hawaii. I have been studying
@@ -71,17 +76,17 @@
                to do with the ocean. I like watching sports or binging netflix.</p>
         </div>
 
-        <img src="" alt="">
+        <img src="" alt="" class="about-me__img">
     </section> 
 
     <!--My work-->
     <section class="my-work" id="projects">
-        <h2 class="section__title">My Work</h2>
-        <p class="section__subtitle"></p>
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">Examples of Projects I've Done</p>
 
         <div class="portfolio">
             <!--Portfolio item 01-->
-            <a href="https://codepen.io/makzilla808/pen/GRZvQrO" class="project-tile>
+            <a href="https://codepen.io/makzilla808/pen/GRZvQrO" class="project-tile"  >
                 <img src="tributepagethmb.png" alt="Tribute Page Thumbnail" class="portfolio__img">
             </a>
              <!--Portfolio item 02-->
@@ -96,17 +101,29 @@
     </section>
 
     <!--Footer-->
+    <footer class="footer">
     <a href="mailto:makamaetorres@gmail.com" class="footer__link">makamaetorres@gmail.com</a>
     <ul class="social-list">
-        <li class="social-list__item"><a id="profile-link" class="social-list__link" 
-        href="https://codepen.io/makzilla808" target="_blank">c</a></li>
-        <li class="social-list__item"><a class="social-list__link" id="profile-link"
-        href="https://github.com/makzilla808" target="_blank">g</a></li>
-        <li class="social-list__item"><a class="social-list__link" id="profile-link"
-        href="https://www.freecodecamp.org/makzilla" target="_blank">f</a></li>
+        <li class="social-list__item">
+            <a id="profile-link" class="social-list__link" 
+        href="https://codepen.io/makzilla808" target="_blank">
+        <i class="fab fa-codepen"></i>
+    </a>
+    </li>
+        <li class="social-list__item">
+            <a class="social-list__link" id="profile-link"
+        href="https://github.com/makzilla808" target="_blank">
+        <i class="fab fa-github-square"></i>
+    </a>
+    </li>
+        <li class="social-list__item">
+            <a class="social-list__link" id="profile-link"
+        href="https://www.freecodecamp.org/makzilla" target="_blank">
+        <i class="fab fa-free-code-camp"></i>
+    </a>
+    </li>
     </ul>
-
-   
+</footer>
     
     
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
